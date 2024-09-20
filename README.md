@@ -9,10 +9,16 @@ MODEL ARCHITECTURE - A simple neural network is used with the following structur
 
 Input layer:   784 nodes (one for each pixel in the flattened 28x28 image).
 
+Hidden Layer: The hidden layer consists of 100 neurons with ReLU activation, which allows the model to learn more complex patterns in the data.
+
 Output layer:   10 nodes (corresponding to the digit classes 0-9).
 
-Activation function:   Sigmoid activation is used in the output layer to ensure that the output values are between 0 and 1.
+Activation function:   
+ReLU (Rectified Linear Unit) is used in the hidden layer to introduce non-linearity and help the network learn complex patterns.
+Sigmoid activation is used in the output layer to ensure that the output values are between 0 and 1.
 
 Loss function:   Sparse categorical cross-entropy, as the problem is a multi-class classification task with integer labels.
 
 Optimizer:   Adam optimizer is used to adjust the weights of the network based on the loss function.
+
+Metrics: The model is evaluated based on accuracy
