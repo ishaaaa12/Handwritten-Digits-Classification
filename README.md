@@ -7,8 +7,12 @@ DATASET - The MNIST dataset consists of grayscale images of handwritten digits. 
 
 MODEL ARCHITECTURE - A simple neural network is used with the following structure:
 
-Input layer: 784 nodes (one for each pixel in the flattened 28x28 image).
-Output layer: 10 nodes (corresponding to the digit classes 0-9).
-Activation function: Sigmoid activation is used in the output layer to ensure that the output values are between 0 and 1.
-Loss function: Sparse categorical cross-entropy, as the problem is a multi-class classification task with integer labels.
-Optimizer: Adam optimizer is used to adjust the weights of the network based on the loss function.
+Input layer:   784 nodes (one for each pixel in the flattened 28x28 image).
+
+Output layer:   10 nodes (corresponding to the digit classes 0-9).
+
+Activation function:   Sigmoid activation is used in the output layer to ensure that the output values are between 0 and 1.
+
+Loss function:   Sparse categorical cross-entropy, as the problem is a multi-class classification task with integer labels.
+
+Optimizer:   Adam optimizer is used to adjust the weights of the network based on the loss function.
