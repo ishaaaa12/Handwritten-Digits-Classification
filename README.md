@@ -22,3 +22,7 @@ Loss function:   Sparse categorical cross-entropy, as the problem is a multi-cla
 Optimizer:   Adam optimizer is used to adjust the weights of the network based on the loss function.
 
 Metrics: The model is evaluated based on accuracy
+
+GUI
+The GUI is built using Tkinter library, allowing users to to draw digits on a canvas and predict the corresponding digit using the trained neural network model.
+![image](https://github.com/user-attachments/assets/1557a288-ff01-4c11-b622-1e07ab80a6f2)
