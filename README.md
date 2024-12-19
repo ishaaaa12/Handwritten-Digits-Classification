@@ -5,11 +5,16 @@ The goal of this project is to create a neural network that can take an image of
 
 DATASET - The dataset used in this project is the MNIST (Modified National Institute of Standards and Technology) dataset, which is one of the most widely recognized datasets for image classification tasks. 
 
-Total Samples: 70,000 images
-Training Set: 60,000 images
+Total Samples:  70,000 images
+
+Training Set:  60,000 images
+
 Test Set: 10,000 images
+
 Image Size: 28 x 28 pixels (grayscale images)
+
 Number of Classes: 10 (representing the digits 0 to 9)
+
 Pixel Range : 0-255
 
 ![image](https://github.com/user-attachments/assets/a9eeec60-4aa8-44e8-962d-d90775cb1eed)
